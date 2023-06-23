@@ -5,7 +5,7 @@ class PlayerClass{
     constructor(app,name){
         this.name = name;
         this.app = app;
-        this.speed = 20;
+        this.speed = 15;
         this.PlayerSprite = Sprite.from("./Objects/player/steve.png");
         this.Input = new KeyboardInput()
         this.KeysCodes = this.Input.KeysCodes
